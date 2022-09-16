@@ -316,12 +316,6 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>C:\Users\Rereverse\Documents\Shield\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
-    <Reference Include="EditorScript">
-        <HintPath>C:\Users\Rereverse\Documents\Shield\Assets\Puzzle Maker\Editor\EditorScript.dll</HintPath>
-    </Reference>
-    <Reference Include="Scripts">
-        <HintPath>C:\Users\Rereverse\Documents\Shield\Assets\Puzzle Maker\PM Scripts\Scripts.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\Rereverse\Documents\Shield\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
