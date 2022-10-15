@@ -17,13 +17,24 @@ public class QuizManager : MonoBehaviour
     public static int score = 0;
     public static int nomorSoal = 1;    
     public static int maxSoal = 3;
-
+    public Image timerImg;
     public GameObject panelWin;
+    public float timerTime=0,timerMax=0;
 
+    private void Update() {
+        if(Time.time >= timerTime+1){
+            timerImg.fill -= 0.1f;
+            timerTime=Time.time;
+            
+        }
+        
+    }
     void Start()
     {
-        textSoal.text = soal;
-        textScore.text = "Score : " + score.ToString();
+
+        timerTime=Time.time;
+      //  textSoal.text = soal;
+       // textScore.text = "Score : " + score.ToString();
 
         //versi 1
         //textJawaban[0].text = jawaban[0];
@@ -33,7 +44,7 @@ public class QuizManager : MonoBehaviour
 
         //versi 2
         for(int i=0; i<=3; i++){
-            textJawaban[i].text = jawaban[i];
+        //    textJawaban[i].text = jawaban[i];
         }
     }
 
