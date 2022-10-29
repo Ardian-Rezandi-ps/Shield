@@ -22,6 +22,7 @@ public class GameStatus : MonoBehaviour
     void Start()
     {
         currentstatus = StatusUI.pilihanGender;
+        DoPilihanGender();
     }
 
     public void gantiStatusUI(int indexstatus)
