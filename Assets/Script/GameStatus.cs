@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class GameStatus : MonoBehaviour
 {
-
+public static GameStatus instance;
     public GameObject uiPilihanGender;
     public GameObject uiUtama;
     public GameObject uiPenjelasan;
+    public GameObject uiBalonkata;
+    public Image ilustrasiImgPenjelasan;
+    public TextMeshProUGUI deskripsiPenjelasantx;
 
     [System.Serializable]
     public enum StatusUI
@@ -21,6 +25,7 @@ public class GameStatus : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        instance=this;
         currentstatus = StatusUI.pilihanGender;
         DoPilihanGender();
     }

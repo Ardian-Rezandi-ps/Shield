@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Dependency", "Unity.2D.Animation.Samples.Dependency.csproj", "{6153d7e9-116f-b7e5-9a02-9411769f0f02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Editor", "Unity.2D.Animation.Samples.Editor.csproj", "{8aa851a4-b23e-50db-210c-335da0bb12a6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{dcc69c95-7694-f5e5-4f90-182fe7a43978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Editor", "Unity.2D.Animation.Samples.Editor.csproj", "{8aa851a4-b23e-50db-210c-335da0bb12a6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{faf59a2e-4249-4d77-5b8e-5ac177c92256}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6153d7e9-116f-b7e5-9a02-9411769f0f02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6153d7e9-116f-b7e5-9a02-9411769f0f02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8aa851a4-b23e-50db-210c-335da0bb12a6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8aa851a4-b23e-50db-210c-335da0bb12a6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{dcc69c95-7694-f5e5-4f90-182fe7a43978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{dcc69c95-7694-f5e5-4f90-182fe7a43978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8aa851a4-b23e-50db-210c-335da0bb12a6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8aa851a4-b23e-50db-210c-335da0bb12a6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

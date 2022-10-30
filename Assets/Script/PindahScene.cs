@@ -9,4 +9,7 @@ public class PindahScene : MonoBehaviour
     public void pindah(string namaSceneNext){
         SceneManager.LoadSceneAsync(namaSceneNext);
     }
+    public void QuitApp(){
+        Application.Quit();
+    }
 }
