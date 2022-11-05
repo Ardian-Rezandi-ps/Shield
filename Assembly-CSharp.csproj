@@ -849,6 +849,26 @@
       <Project>{8aa851a4-b23e-50db-210c-335da0bb12a6}</Project>
       <Name>Unity.2D.Animation.Samples.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{721dd44d-1b10-fb6d-89a8-5949ecb59db4}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanGUI.csproj">
+      <Project>{c9aec425-1750-9a4f-4dbb-b7a22f3610b3}</Project>
+      <Name>LeanGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.Editor.csproj">
+      <Project>{8c9df547-7798-c0af-fac7-be1ee9b24be6}</Project>
+      <Name>LeanTransition.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CW.Common.csproj">
+      <Project>{bcba36a3-4def-7f95-5f63-c79948f70bc4}</Project>
+      <Name>CW.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.csproj">
+      <Project>{262f2102-e147-f808-5b43-bd9b38fd15d9}</Project>
+      <Name>LeanTransition</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
